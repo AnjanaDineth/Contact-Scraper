@@ -1,21 +1,21 @@
-# 🔍 Universal Contact Info Scraper
+# Universal Contact Info Scraper
 
 A Python script that scrapes **emails, phone numbers, and social media links** from any website — including sites that hide emails behind Cloudflare protection.
 
 ---
 
-## ✨ Features
+## Features
 
-- 📧 Finds emails hidden behind **Cloudflare protection** (`data-cfemail`)
-- 📧 Finds emails via `mailto:` links and regex scanning
-- 📞 Extracts phone numbers
-- 🔗 Finds social media links (Facebook, LinkedIn, Instagram, Twitter, YouTube, etc.)
-- 🌐 **3 scraping modes** — single page, deep crawl, or keyword-filtered crawl
-- 💾 Saves everything to a clean **CSV file**
+- Finds emails hidden behind **Cloudflare protection** (`data-cfemail`)
+- Finds emails via `mailto:` links and regex scanning
+- Extracts phone numbers
+- Finds social media links (Facebook, LinkedIn, Instagram, Twitter, YouTube, etc.)
+- **3 scraping modes** - single page, deep crawl, or keyword-filtered crawl
+- Saves everything to a clean **CSV file**
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/contact-scraper.git
@@ -25,7 +25,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ```bash
 python contact_scraper.py
@@ -51,7 +51,7 @@ Enter URL to scrape: https://www.somesite.com
 
 ---
 
-## 📋 Example Output
+## Example Output
 
 ```
   [1/42] some-company
@@ -72,7 +72,7 @@ Saved 38 records to 'contacts.csv'
 
 ---
 
-## 💡 Tips
+## Tips
 
 - For a **company directory** (e.g. EDB Sri Lanka exporters), use **mode 3** with keyword `company-profiles`
 - For a **team/staff page**, use **mode 2** to follow all internal links
@@ -82,7 +82,7 @@ Saved 38 records to 'contacts.csv'
 
 ---
 
-## 📋 Requirements
+## Requirements
 
 - Python 3.8+
 - requests
